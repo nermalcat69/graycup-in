@@ -6,7 +6,7 @@ import GrayCupLogo from "@/components/ColdranLogo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
-import { Loader2, Building } from "lucide-react";
+import { Loader2, Building, Link } from "lucide-react";
 
 import { Icons } from "@/components/icons";
 
@@ -33,15 +33,18 @@ export default function AuthCard() {
 
             {/* Social Login Buttons */}
             <div className="space-y-3">
-              <Button
-                variant="outline"
-                size="social"
-                className="w-full font-semibold bg-white justify-center"
-              >
+              <Link href="https://instagram.com/thegraycup" target="_blank">
+                <Button
+                  variant="outline"
+                  size="social"
+                  className="w-full font-semibold bg-white justify-center"
+                >
                   <Icons.Instagram className="mr-2 h-4 w-4" />
-                Follow on Instagram
-              </Button>
+                  Follow on Instagram
+                </Button>
+              </Link>
 
+              <Link href="https://x.com/thegraycup" target="_blank">
               <Button
                 variant="outline"
                 size="social"
@@ -50,6 +53,7 @@ export default function AuthCard() {
                   <Icons.Twitter className="mr-2 h-4 w-4" />
                 Follow on Twitter
               </Button>
+              </Link>
             </div>
 
             {/* Show other options */}
@@ -84,6 +88,7 @@ export default function AuthCard() {
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-row gap-2">
                       <div className="flex-1">
+                      <Link href="https://discord.gg/gpRxmW63JW" target="_blank">
                         <Button
                           variant="outline"
                           size="social"
@@ -92,6 +97,7 @@ export default function AuthCard() {
                             <Icons.Discord height={20} width={20} className="mr-1.5" />
                           Discord
                         </Button>
+                        </Link>
                       </div>
 
                       <div className="flex-1 relative group">
@@ -112,6 +118,7 @@ export default function AuthCard() {
                     </div>
 
                     <div className="flex flex-row gap-2 justify-between">
+                    <Link href="mailto:arjunaditya@icloud.com" target="_blank">
                       <Button
                         variant="outline"
                         size="social"
@@ -120,7 +127,8 @@ export default function AuthCard() {
                           <Icons.Gmail className="mr-2 h-4 w-4" />
                         Email Us
                       </Button>
-
+                      </Link>
+                      <Link href="https://cal.com/arjunaditya/30min" target="_blank">
                       <Button
                         variant="outline"
                         size="social"
@@ -129,6 +137,7 @@ export default function AuthCard() {
                           <Icons.Zoom className="mr-0.5 h-3.5 w-3.5" />
                         Schedule Call
                       </Button>
+                      </Link>
                     </div>
                   </div>
                 </motion.div>
