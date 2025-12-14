@@ -4,7 +4,7 @@ import { siteConfig } from "@/config/site.config";
 export const metadata: Metadata = {
   title: `Privacy Policy - ${siteConfig.name}`,
   description:
-    "Privacy Policy for Coldran App - Learn how we collect, use, and protect your personal information.",
+    "Privacy Policy for Gray Cup Store - Learn how we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -233,14 +233,14 @@ export default function PrivacyPolicyPage() {
                 </p>
                 <div className="bg-muted/50 rounded-lg p-4 mt-4">
                   <p className="text-muted-foreground">
-                    <strong>Email:</strong> privacy@coldran.com
+                    <strong>Email:</strong> privacy@Gray Cup.com
                     <br />
                     <strong>Website:</strong>{" "}
                     <a
-                      href="https://coldran.com"
+                      href="https://Gray Cup.com"
                       className="text-primary hover:underline"
                     >
-                      https://coldran.com
+                      https://Gray Cup.com
                     </a>
                   </p>
                 </div>

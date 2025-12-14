@@ -7,7 +7,7 @@ import { siteConfig } from "@/config/site.config";
 const metadata: Metadata = {
   title: `${siteConfig.name} - Login`,
   description:
-    "Login to Coldran App - Access your account and start using our features.",
+    "Login to Gray Cup Store - Access your account and start using our features.",
 };
 
 export default function AuthPage() {

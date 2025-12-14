@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 
-import ColdranLogo from "@/components/ColdranLogo";
+import Gray CupLogo from "@/components/Gray CupLogo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
@@ -20,7 +20,7 @@ export default function AuthCard() {
     <div className="flex flex-col items-center justify-center ">
       <Card className="max-w-sm w-full rounded-xl overflow-hidden">
         <CardHeader className="text-center space-y-2 pb-6">
-          <ColdranLogo className="hidden md:block w-12 h-12 mx-auto" />
+          <Gray CupLogo className="hidden md:block w-12 h-12 mx-auto" />
           <CardTitle className="text-3xl font-bold text-gray-900">
             Our Medusa Store is Work in Progress
           </CardTitle>
@@ -28,7 +28,7 @@ export default function AuthCard() {
         <CardContent className="px-6">
           <div className="grid gap-4">
             <p className="text-xs text-neutral-500 font-medium">
-              We're going to take some time as we don't believe in Shopify.
+              We're going to take some time as we don't believe in Shopify. <a href="https://graycup.org" className="text-blue-600 hover:underline">Visit graycup.org</a>
             </p>
 
             {/* Social Login Buttons */}
