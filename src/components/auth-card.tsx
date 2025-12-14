@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
 import Link from "next/link";
+import { Building } from "lucide-react";
 
 import { Icons } from "@/components/icons";
 
