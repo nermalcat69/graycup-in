@@ -1,4 +1,4 @@
-export default function Gray CupLogo({ className }: { className?: string }) {
+export default function GrayCupLogo({ className }: { className?: string }) {
   return (
     <div className={`group relative overflow-visible w-10 h-10 ${className}`}>
       <svg viewBox="0 0 260 260" fill="none" xmlns="http://www.w3.org/2000/svg">

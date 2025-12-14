@@ -2,7 +2,7 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 
-import Gray CupLogo from "@/components/Gray CupLogo";
+import GrayCupLogo from "@/components/ColdranLogo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
@@ -20,7 +20,7 @@ export default function AuthCard() {
     <div className="flex flex-col items-center justify-center ">
       <Card className="max-w-sm w-full rounded-xl overflow-hidden">
         <CardHeader className="text-center space-y-2 pb-6">
-          <Gray CupLogo className="hidden md:block w-12 h-12 mx-auto" />
+          <GrayCupLogo className="hidden md:block w-12 h-12 mx-auto" />
           <CardTitle className="text-3xl font-bold text-gray-900">
             Our Medusa Store is Work in Progress
           </CardTitle>
