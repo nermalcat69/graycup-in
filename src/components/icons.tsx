@@ -209,15 +209,15 @@ export const Icons = {
             y1="95.6118%"
             y2="4.3882%"
           >
-            <stop offset=".00006%" stop-color="#0845BF" />
-            <stop offset="19.11%" stop-color="#0950DE" />
-            <stop offset="38.23%" stop-color="#0B59F6" />
-            <stop offset="50%" stop-color="#0B5CFF" />
-            <stop offset="67.32%" stop-color="#0E5EFE" />
-            <stop offset="77.74%" stop-color="#1665FC" />
-            <stop offset="86.33%" stop-color="#246FF9" />
-            <stop offset="93.88%" stop-color="#387FF4" />
-            <stop offset="100%" stop-color="#4F90EE" />
+            <stop offset=".00006%" stopColor="#0845BF" />
+            <stop offset="19.11%" stopColor="#0950DE" />
+            <stop offset="38.23%" stopColor="#0B59F6" />
+            <stop offset="50%" stopColor="#0B5CFF" />
+            <stop offset="67.32%" stopColor="#0E5EFE" />
+            <stop offset="77.74%" stopColor="#1665FC" />
+            <stop offset="86.33%" stopColor="#246FF9" />
+            <stop offset="93.88%" stopColor="#387FF4" />
+            <stop offset="100%" stopColor="#4F90EE" />
           </linearGradient>
         </defs>
         <path

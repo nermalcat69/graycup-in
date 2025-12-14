@@ -116,7 +116,6 @@ export default function AuthCard() {
 
                       <div className="flex-1 relative group">
                         <Button
-                          asChild
                           variant="outline"
                           size="social"
                           className="w-full font-semibold bg-white justify-center opacity-60 cursor-not-allowed"
