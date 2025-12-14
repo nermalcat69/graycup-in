@@ -1,5 +1,5 @@
   main = ".open-next/worker.js"
-  name = "my-app"
+  name = "graycup-in"
   compatibility_date = "2025-12-13"
   compatibility_flags = ["nodejs_compat"]
   [assets]
