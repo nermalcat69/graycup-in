@@ -38,6 +38,7 @@ export default function AuthCard() {
             {/* Social Login Buttons */}
             <div className="space-y-3">
               <Button
+                asChild
                 variant="outline"
                 size="social"
                 className="w-full font-semibold bg-white justify-center"
@@ -49,6 +50,7 @@ export default function AuthCard() {
               </Button>
 
               <Button
+                asChild
                 variant="outline"
                 size="social"
                 className="w-full font-semibold bg-white justify-center"
@@ -93,6 +95,7 @@ export default function AuthCard() {
                     <div className="flex flex-row gap-2">
                       <div className="flex-1">
                         <Button
+                          asChild
                           variant="outline"
                           size="social"
                           className="w-full font-semibold bg-white justify-center"
@@ -113,6 +116,7 @@ export default function AuthCard() {
 
                       <div className="flex-1 relative group">
                         <Button
+                          asChild
                           variant="outline"
                           size="social"
                           className="w-full font-semibold bg-white justify-center opacity-60 cursor-not-allowed"
@@ -130,6 +134,7 @@ export default function AuthCard() {
 
                     <div className="flex flex-row gap-2 justify-between">
                       <Button
+                        asChild
                         variant="outline"
                         size="social"
                         className="justify-center bg-white"
@@ -143,6 +148,7 @@ export default function AuthCard() {
                         </Link>
                       </Button>
                       <Button
+                        asChild
                         variant="outline"
                         size="social"
                         className="justify-center bg-white"
