@@ -6,7 +6,7 @@ import GrayCupLogo from "@/components/ColdranLogo";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useState } from "react";
-import { Loader2, Building, Link } from "lucide-react";
+import Link from "next/link";
 
 import { Icons } from "@/components/icons";
 
